@@ -1,0 +1,6 @@
+    c=pd.DataFrame(kmodel.cluster_centers_).sort_values(0)
+    
+    AttributeError: 'DataFrame' object has no attribute 'sort'
+    
+    Solution:
+    sort_values() instead of sort()
